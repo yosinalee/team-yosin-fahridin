@@ -1,0 +1,465 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="flex justify-between items-center px-6 py-2 text-[14px] text-gray-600 border-b">
+    <div>
+      <span>🌐 English</span> | <span>💵 USD</span>
+    </div>
+    <div class="space-x-4">
+      <a href="#">🗃Track Order</a>
+      <a href="#">❓Help Center</a>
+      <a href="#">⚔️ Compare</a>
+      <a href="#">❤️ Wishlist</a>
+    </div>
+  </div>
+
+
+  <header class="flex  w-[100%] justify-between items-center px-6 py-4 bg-white shadow-sm">
+    <img src="https://motta.uix.store/wp-content/themes/motta/images/logo.svg" alt="">
+    <div class="flex w-[70%] mx-6 gap-4">
+      <input type="text" placeholder="Search for anything" class="w-full border rounded-md px-4 py-2">
+      <button class="hidden md:block bg-[blue] w-[60px]">🔍</button>
+    </div>
+    <div class="space-x-6 text-sm flex items-center">
+      <a href="#">👤 Account</a>
+      <a class="hidden md:block" href="#">🛒 Cart</a>
+    </div>
+  </header>
+
+  <nav class="flex bg-white justify-center md:justify-start border-t border-b py-3 px-6 text-sm font-medium">
+    <a href="#" class="mr-6">Home</a>
+    <a href="#" class="mr-6">Shop</a>
+    <a href="#" class="mr-6">Features</a>
+    <a href="#" class="mr-6">Pages</a>
+    <a href="#">Blog</a>
+    <div class="ml-auto hidden md:block text-red-600 font-semibold"><a href="#">Shop Today's Deals</a></div>
+  </nav>
+
+  <main class="flex ">
+    <aside class="w-64 p-6 bg-white border-r hidden md:block">
+      <h2 class="font-semibold text-lg mb-4">Shop by Category</h2>
+      <div class=" space-y-3 text-gray-700">
+        <p>🏡 Home & Garden</p>
+        <p>💻 Electronics</p>
+        <p>👕 Fashion</p>
+        <p>💍 Jewelry & Accessories</p>
+        <p>🏀 Sports & Entertainment</p>
+        <p>👶 Mother & Kids</p>
+        <p>💄 Beauty & Health</p>
+        <p>🧸 Toys & Games</p>
+        <p>🏍️ Automobiles & Motorcycles</p>
+        <p>🖼️ Collectibles & Art</p>
+        <p>🛠️ Tools & Home Improvement</p>
+      </div>
+    </aside>
+
+ 
+    <section class="flex-1 p-6">
+      <div class="relative bg-orange-100 rounded-lg p-8 flex items-center justify-between">
+        <div>
+          <h3 class="text-red-600 uppercase text-sm font-semibold">New Arrivals</h3>
+          <h1 class="text-4xl font-bold mt-2 mb-4">Hot Right Now</h1>
+          <p class="text-gray-700 mb-4">Retro Remixed For The Future<br>Starting at $110</p>
+          <a href="#" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Shop Now</a>
+        </div>
+        <img src="https://i.imgur.com/zVcePMZ.png"class="w-1/2 max-w-md">
+      </div>
+    </section>
+  </main>
+
+  <section class="px-6 py-10 bg-white">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-semibold text-gray-800">Today's Best Deals</h2>
+    <a href="#" class="text-sm font-semibold text-gray-700 underline">See All Deals</a>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <div class="bg-green-100 p-6 rounded-lg flex flex-col justify-between">
+      <div>
+        <h3 class="text-xl font-bold text-green-800 mb-2">Small<br>Appliances</h3>
+        <p class="text-sm text-gray-700 mb-4">Up to 40% off Kitchen Products.</p>
+        <a href="#" class="text-sm font-semibold text-green-800 underline">Shop Now</a>
+      </div>
+      <img src="https://motta.uix.store/product-category/homegarden/home-decor/"  class="mt-4 w-full h-32 ">
+    </div>
+
+ 
+    <div class="bg-pink-100 p-6 rounded-lg flex flex-col justify-between">
+      <div>
+        <h3 class="text-xl font-bold text-pink-800 mb-2">Premium<br>Beauty</h3>
+        <p class="text-sm text-gray-700 mb-4">Up to 25% off Hair Care Products.</p>
+        <a href="#" class="text-sm font-semibold text-pink-800 underline">Shop Now</a>
+      </div>
+      <img src="/src/image.pn"  class="mt-4 w-full h-32 ">
+    </div>
+
+    <div class="bg-blue-100 p-6 rounded-lg flex flex-col justify-between">
+      <div>
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Indoor<br>Furniture</h3>
+        <p class="text-sm text-gray-700 mb-4">Save 30% Today, Even on Furniture</p>
+        <a href="#" class="text-sm font-semibold text-blue-900 underline">Shop Now</a>
+      </div>
+      <img src="https://i.imgur.com/nfBiWXL.png"  class="mt-4 w-full h-32 ">
+    </div>
+
+   
+    <div class="bg-orange-100 p-6 rounded-lg flex flex-col justify-between">
+      <div>
+        <h3 class="text-xl font-bold text-orange-900 mb-2">Cell Phones<br>& Smartphones</h3>
+        <p class="text-sm text-gray-700 mb-4">Up to 15% off Cell Phones Products.</p>
+        <a href="#" class="text-sm font-semibold text-orange-900 underline">Shop Now</a>
+      </div>
+      <img src="https://motta.uix.store/product-category/homegarden/kitchen-dining/"  class="mt-4 w-full h-32 ">
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-semibold text-gray-800">Flash Deals</h2>
+    <div class="flex items-center space-x-2">
+      <span class="text-sm font-medium text-gray-500">Ends in</span>
+      <div class="flex space-x-1 text-sm font-semibold text-white">
+        <span class="bg-black px-2 py-1 rounded">05</span>
+        <span class="bg-black px-2 py-1 rounded">07</span>
+        <span class="bg-black px-2 py-1 rounded">41</span>
+      </div>
+      <a href="#" class="ml-4 text-sm font-semibold text-gray-700 underline">See All Products</a>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+   
+    <div class="text-center">
+      <span class="text-xs bg-red-500 text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Sale</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/08/1.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">Town Truck & Tracked Excavator 10812 (26 Pieces)</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-1">
+        <span class="font-semibold text-gray-900">$19.00</span>
+        <span class="line-through text-gray-400">$21.00</span>
+      </div>
+      <div class="text-xs text-gray-500 mt-1">Borda</div>
+      <div class="w-[315px] ml-[40px] h-1 bg-gray-200 rounded mt-2">
+        <div class="w-[30%] h-full bg-gray-800 rounded"></div>
+      </div>
+      <p class="text-xs text-gray-500 mt-1">20 Sold</p>
+    </div>
+
+    <div class="text-center">
+      <div class="flex  space-x-1 mb-1">
+        <span class="text-xs bg-red-500 text-white px-2 py-1 rounded">Sale</span>
+        <span class="text-xs bg-orange-500 text-white px-2 py-1 rounded">Hot</span>
+      </div>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/08/1-1.jpg?resize=300%2C300&ssl=1" alt="Game Controller" class="mx-auto  object-contain">
+      <p class="text-xs text-gray-500 mb-1">2 Colors</p>
+      <h3 class="text-sm font-medium">Game Controller Console USB Wired</h3>
+      <p class="text-xs text-gray-500">(2)</p>
+      <div class="text-sm mt-1">
+        <span class="font-semibold text-gray-900">$29.00</span>
+        <span class="line-through text-gray-400">$59.00</span>
+      </div>
+      <div class="text-xs text-gray-500 mt-1">Zone Shop</div>
+      <div class="w-full h-1 bg-gray-200 rounded mt-2">
+        <div class="w-[80%] h-full bg-gray-800 rounded"></div>
+      </div>
+      <p class="text-xs text-gray-500 mt-1">50 Sold</p>
+    </div>
+
+     <div class="text-center">
+      <div class="flex  space-x-1 mb-1">
+        <span class="text-xs bg-red-500 text-white px-2 py-1 rounded">Sale</span>
+        <span class="text-xs bg-orange-500 text-white px-2 py-1 rounded">Hot</span>
+      </div>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/04/1-3.jpg?resize=300%2C300&ssl=1" alt="Game Controller" class="mx-auto object-contain">
+      <p class="text-xs text-gray-500 mb-1">2 Colors</p>
+      <h3 class="text-sm font-medium">Game Controller Console USB Wired</h3>
+      <p class="text-xs text-gray-500">(2)</p>
+      <div class="text-sm mt-1">
+        <span class="font-semibold text-gray-900">$289.00</span>
+        <span class="line-through text-gray-400">$429.00</span>
+      </div>
+      <div class="text-xs text-gray-500 mt-1">Zone Shop</div>
+      <div class="w-[315px] ml-[40px] h-1 bg-gray-200 rounded mt-2">
+        <div class="w-[5%] h-full bg-gray-800 rounded"></div>
+      </div>
+      <p class="text-xs text-gray-500 mt-1">50 Sold</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-white py-10 mt-[40px] px-6 border-t">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-gray-800">
+    
+    <div class="flex flex-col gap-5  md:flex-row  items-center">
+      <img src="https://motta.uix.store/wp-content/uploads/2022/08/moneyback.svg"  class="w-14 h-14 mb-4">
+      <div>
+        <h3 class="font-semibold text-lg mb-1">Money Back Guarantee</h3>
+         <p class="text-sm mb-2">Get the item you ordered or your money back</p>
+        <a href="#" class="text-sm font-semibold underline">Learn More</a>
+      </div>
+    
+    </div>
+
+    <div class="flex flex-col gap-5  md:flex-row  items-center">
+      <img src="https://motta.uix.store/wp-content/uploads/2022/08/freeshipping.svg"  class="w-14 h-14 mb-4">
+      <div>
+            <h3 class="font-semibold  text-lg mb-1">Free Shipping</h3>
+      <p class="text-sm mb-2">Free Shipping On Orders Over $100</p>
+      <a href="#" class="text-sm font-semibold underline">Details</a>
+      </div>
+  
+    </div>
+
+    <div class="flex flex-col gap-5 md:flex-row items-center">
+      <img src="https://motta.uix.store/wp-content/uploads/2022/08/customerservice.svg" alt="Customer Service" class="w-14 h-14 mb-4">
+      <div>
+         <h3 class="font-semibold text-lg mb-1">24/7 Customer Service</h3>
+      <p class="text-sm mb-2">Want to talk to a person? Choose chat or call us</p>
+      <a href="#" class="text-sm font-semibold underline">Get Support</a>
+      </div>
+     
+    </div>
+
+  </div>
+</section>
+  
+<h1 class="font-semibold mt-10 ml-[20px] text-[35px]">Trending Brands</h1>
+
+<section class="w-[96%] mt-[50px] m-auto flex flex-wrap justify-between h-[250px]">
+
+   <div class="w-[170px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-nature.png?w=340&ssl=1" alt="">
+   </div>
+
+    <div class="w-[170px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-classic.png?w=340&ssl=1" alt="">
+   </div>
+
+    <div class="w-[175px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-brandit.png?w=340&ssl=1" alt="">
+   </div>
+
+    <div class="w-[175px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-alisa.png?w=340&ssl=1" alt="">
+   </div>
+
+    <div class="w-[180px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-westside.png?w=340&ssl=1" alt="">
+   </div>
+
+    <div class="w-[180px] md:w-[190px] h-[140px] bg-[#e4e4e4]">
+     <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-smile.png?w=340&ssl=1" alt="">
+    </div>
+
+</section>
+
+<section class="bg-white py-10 px-6 md:mt-0 mt-[200px]">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-semibold text-gray-800">Top Sellers</h2>
+    <div class="flex items-center space-x-2"> 
+      <a href="#" class="ml-4 text-sm font-semibold text-gray-700 underline">See All Products</a>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 ml-[50px]">
+    <div class="w-[80%]">
+      <span class="text-xs bg-red-500 text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Sale</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/08/1-4.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">1TB Gaming Console – Wireless Game Pad – Black</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-4 mb-4">
+        <span class="font-semibold text-gray-900">$300.00</span>
+        <span class="line-through text-gray-400">$380.00</span>
+      </div>
+      <div class=" mt-1">💢 Consual</div>
+    </div>
+
+        <div class="w-[80%]">
+      <span class="text-xs  text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Sale</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/09/1-2.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">1TB Gaming Console – Wireless Game Pad – Black</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-4 mb-4">
+        <span class="font-semibold text-gray-900">$69.00</span>
+      </div>
+      <div class=" mt-1">🎁 Borda</div>
+    </div>
+
+        <div class="w-[80%]">
+      <span class="text-xs bg-[orange] text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Hot</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/09/1-3.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">1TB Gaming Console – Wireless Game Pad – Black</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-4 mb-4">
+        <span class="font-semibold text-gray-900">$295.00</span>
+  
+      </div>
+      <div class=" mt-1">🔲 Truffles</div>
+    </div>
+
+        <div class="w-[80%]">
+      <span class="text-xs  text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Sale</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/09/1-4.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">1TB Gaming Console – Wireless Game Pad – Black</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-4 mb-4">
+        <span class="font-semibold text-gray-900">$245.00</span>
+      
+      </div>
+      <div class=" mt-1">🔲 Truffles</div>
+    </div>
+    
+    
+        <div class="w-[80%]">
+      <span class="text-xs bg-red-500 text-white flex text-start w-[40px] px-2 py-1 rounded mb-2 ml-[20px]">Sale</span>
+      <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/09/6-2.jpg?resize=300%2C300&ssl=1" class=" mx-auto object-contain">
+      <h3 class="text-sm font-medium mt-2">1TB Gaming Console – Wireless Game Pad – Black</h3>
+      <p class="text-xs text-gray-500">(1)</p>
+      <div class="text-sm mt-4 mb-4">
+        <span class="font-semibold text-gray-900">$85.00</span>
+        <span class="line-through text-gray-400">$99.00</span>
+      </div>
+      <div class=" mt-1">🧿 Zone Shop</div>
+    </div>
+  </div>
+</section>
+
+ <div class="w-[96%] m-auto flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-semibold text-gray-800">Top Sellers</h2>
+    <div class="flex items-center space-x-2"> 
+      <a href="#" class="ml-4 text-sm font-semibold text-gray-700 underline">See All Products</a>
+    </div>
+  </div>
+
+<section class="w-[96%] mt-[50px] m-auto flex flex-wrap justify-between h-[250px]">
+
+ 
+
+    <div class="text-center">
+    <img class="w-[150px] h-[150px] rounded-[100px]" src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-furniture.jpg?w=400&ssl=1" alt="">
+     <p class="font-semibold mt-3">Furniture</p>
+    </div>
+
+    <div class="text-center">
+     <img class="w-[150px] h-[150px] rounded-[100px]"  src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-shoes.jpg?w=400&ssl=1" alt="">
+     <p class="font-semibold mt-3">Shoes</p>
+    </div>
+
+    <div class="text-center">
+     <img class="w-[150px] h-[150px] rounded-[100px]"  src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-smartphones.jpg?w=400&ssl=1" alt="">
+     <p>Smartphones</p>
+    </div>
+
+    <div class="text-center">
+     <img class="w-[150px] h-[150px] rounded-[100px]"  src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-airprufiers.jpg?w=400&ssl=1" alt="">
+     <p class="font-semibold mt-3">Air Purifiers</p>
+    </div>
+
+    <div class="text-center">
+      <img class="w-[150px] h-[150px] rounded-[100px]"  src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-toys.jpg?w=400&ssl=1" alt="">
+      <p class="font-semibold mt-3">Toys</p>
+    </div>
+
+   <div class="text-center">
+     <img class="w-[150px] h-[150px] rounded-[100px]"  src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-headphones.jpg?w=400&ssl=1" alt="">
+     <p class="font-semibold mt-3">Headphones</p>
+    </div>
+
+</section>
+
+<hr class="mb-[100px] md:mt-[50px] mt-[400px]">
+
+<div class="w-[96%] m-auto flex flex-col md:flex-row justify-between">
+  <div class="flex justify-center md:justify-start gap-[100px]">
+     <div class="flex flex-col gap-3 items-start">
+       <img src="/src/image.png" alt="">
+       <h1 class="font-semibold">Call</h1>
+       <p>Call us from 8am to <br>12am ET.</p>
+       <h1 class="font-semibold">1-866-237-8289</h1>
+     </div>
+
+      <div class="flex flex-col gap-3 items-start">
+       <img src="/src/image copy.png" alt="">
+       <h1 class="font-semibold">Email</h1>
+       <p>Our response time is <br>1 to 3 business days.</p>
+       <h1 class="font-semibold">Send a Message</h1>
+     </div>
+  </div>
+
+  <div class="flex flex-col gap-[20px]">
+    <h1 class="font-semibold text-[30px] flex justify-center mt-[30px] md:mt-0">Let’s keep in touch</h1>
+    <p>Get recommendations, tips, updates, promotions and more.</p>
+    <div class="flex gap-3">
+      <input class="w-[400px] font-bold rounded-[5px] border-black border-[1px] p-3" type="text" placeholder="Enter your email adress">
+      <button class="bg-[blue] rounded-[5px] text-white w-[150px]">Subscribe</button>
+    </div>
+  </div>
+
+</div>
+
+<hr class=" w-[96%] m-auto mb-[50px] md:mt-[50px]">
+
+<div class="w-[96%] m-auto flex flex-col md:flex-row justify-between">
+   <div class="flex flex-col gap-5 items-center md:items-start">
+       <img src="https://motta.uix.store/wp-content/uploads/2022/10/Logo-v1.png" alt="">
+       <h1 class="font-semibold text-[20px]">Best For Shopping</h1>
+       <p class="text-[13px]">Sed do eiusmod tempor <br> incididuntut labore dolore magna.</p>
+       <img class="w-[200px]" src="/src/f1.png" alt="">
+     </div>
+
+     <div class="flex gap-[100px]">
+       <div class="flex flex-col gap-[10px]">
+         <h1 class="font-semibold mb-5">Get to Know Us</h1>
+         <p>About Us</p>
+         <p>News & Blog</p>
+         <p>Careers</p>
+         <p>Investors</p>
+         <p>Contact Us</p>
+       </div>
+         <div class="flex flex-col gap-[10px]">
+         <h1 class="font-semibold mb-5">Customer Service</h1>
+         <p>Help Center</p>
+         <p>FAQ’s</p>
+         <p>Accessibility</p>
+         <p>Feedback</p>
+         <p>Size Guide</p>
+         <p>Payment Method</p>
+       </div>
+         <div class="flex flex-col gap-[10px]">
+         <h1 class="font-semibold mb-5">Orders & Returns</h1>
+         <p>Track Order</p>
+         <p>Shipping & Delivery</p>
+         <p>Return & Exchange</p>
+         <p>Price Match Guarantee</p>
+       </div>
+     </div>
+</div>
+
+<hr class="w-[96%] m-auto mb-[50px] mt-[50px]">
+
+<div class="w-[96%] m-auto flex justify-between">
+    <div class="flex gap-8">
+      <p>Privacy Policy</p>
+      <p class="hidden md:block">Terms of Use</p>
+      <a class="hidden md:block" href="">Legal</a>
+      <p class="hidden md:block">Site Map</p>
+    </div>
+    <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2021/12/payment.jpg?resize=276%2C18&ssl=1" alt="">
+</div>
+<div class="w-[96%] mt-[50px] m-auto flex justify-between">
+    <h1 class="font-semibold">Copyright © 2025 Motta, All rights reserved.</h1>
+    <div class="flex gap-8">
+      <p>🌐 English </p>
+      <p class="hidden md:block">|</p>
+      <p>💵 $ - USD</p>
+    </div>
+</div>
+</body>
+</html>
