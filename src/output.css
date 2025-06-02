@@ -870,6 +870,10 @@ video {
   margin-top: 0px;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -2001,6 +2005,10 @@ video {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-\[190px\] {
     width: 190px;
   }
@@ -2011,6 +2019,10 @@ video {
 
   .md\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
   }
 
   .md\:grid-cols-4 {
@@ -2037,6 +2049,10 @@ video {
     flex-direction: column;
   }
 
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .md\:items-start {
     align-items: flex-start;
   }
@@ -2055,5 +2071,9 @@ video {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
   }
 }
